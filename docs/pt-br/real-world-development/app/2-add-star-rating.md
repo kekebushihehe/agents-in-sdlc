@@ -80,7 +80,7 @@ Revise os resultados das verificações automatizadas do agente antes de abrir u
 1. Use o prompt a seguir para pedir ao Copilot que inicie o aplicativo e abra a página no canvas de navegador:
 
     ```plaintext
-    Start the app and open it in the browser canvas.
+    Inicie o aplicativo e abra-o no canvas do navegador.
     ```
 
 2. Em alguns instantes, o aplicativo será iniciado e uma janela do navegador será aberta dentro do aplicativo Copilot.

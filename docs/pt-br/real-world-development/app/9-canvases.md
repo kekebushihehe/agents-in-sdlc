@@ -50,7 +50,7 @@ Comece pelo canvas Database Explorer existente no projeto. Usar um exemplo funci
 5. Peça ao Copilot que prepare o banco de dados local, se necessário, e abra o canvas existente sem alterá-lo:
 
       ```plaintext
-            Set up the local database if needed, then open the repository's Database Explorer canvas. Do not change any files.
+            Configure o banco de dados local se necessário e, em seguida, abra o canvas Database Explorer do repositório. Não altere nenhum arquivo.
       ```
 
 6. No Database Explorer, navegue pelas tabelas disponíveis e selecione `games`.
@@ -74,7 +74,7 @@ Agora, crie outro tipo de superfície compartilhada. Salvar o canvas de triagem 
 1. Na mesma sessão, digite `/create-canvas` e descreva o canvas que deseja criar:
 
    ```plaintext
-   Create a Kanban triage canvas for this repo's open issues and save it under .github/extensions/. Highlight the three issues you'd prioritize and explain why, with the rest below. Include summaries and links.
+   Crie um canvas Kanban para fazer a triagem das issues abertas deste repositório e salve-o em `.github/extensions/`. Destaque as três issues que você priorizaria e explique o motivo, deixando as demais abaixo. Inclua resumos e links.
 
    Give each card an "Add to current context" action that adds the issue details without starting work or changing the issue. Make it keyboard-accessible and open it so I can try it.
    ```

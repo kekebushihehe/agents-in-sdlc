@@ -38,7 +38,7 @@ A skill `microsoft-foundry` é responsável pelo fluxo de trabalho do agente hos
 1. No Copilot CLI, insira:
 
     ```text
-    Use the Azure skills to add an Azure Functions v4 Node.js and TypeScript project in api with one POST /api/concierge endpoint that invokes my deployed Backer Concierge hosted agent. This Function will run locally only; don't add it to azure.yaml or create Azure deployment infrastructure. Use DefaultAzureCredential with my local Azure sign-in. Keep the HTTP trigger thin, isolate the Foundry client in a unit-testable module, validate and limit request bodies, set explicit timeouts, and return sanitized errors. Store the Foundry project endpoint and agent name in local server-side settings that are excluded from version control. Never return credentials or access tokens to the browser. The Astro site is `output: 'static'` with no dev proxy, so also add a local-only Vite dev-server proxy for /api to the Function's port in astro.config.mjs, so relative /api/concierge requests reach it during `astro dev`.
+    Use as skills do Azure para adicionar em `api` um projeto Azure Functions v4 com Node.js e TypeScript, contendo um endpoint POST `/api/concierge` que invoque meu agente hospedado Backer Concierge implantado. Esta Function será executada somente localmente; não a adicione a `azure.yaml` nem crie infraestrutura de implantação do Azure. Use `DefaultAzureCredential` com meu login local do Azure. Mantenha simples o gatilho HTTP, isole o cliente do Foundry em um módulo testável por testes de unidade, valide e limite os corpos das solicitações, defina tempos limite explícitos e retorne erros sanitizados. Armazene o endpoint do projeto do Foundry e o nome do agente em configurações locais do servidor excluídas do controle de versão. Nunca retorne credenciais nem tokens de acesso ao navegador. O site Astro usa `output: 'static'` e não tem proxy de desenvolvimento; portanto, adicione também em `astro.config.mjs` um proxy local exclusivo para o servidor de desenvolvimento Vite, encaminhando `/api` à porta da Function, para que solicitações relativas a `/api/concierge` cheguem até ela durante `astro dev`.
 
     For conversation state, generate a high-entropy handle on the server, map it to the Foundry conversation server-side with an expiration, and never expose a raw Foundry conversation or thread identifier. Reject malformed, expired, and unknown handles. Add focused unit tests.
     ```
@@ -63,14 +63,14 @@ O proxy oferece ao navegador uma forma segura de acessar o concierge. Agora, voc
 1. Peça ao Copilot para criar a integração com o site:
 
     ```text
-    Add an accessible Backer Concierge chat widget as an Astro component and render it site-wide from Layout.astro. It should POST to /api/concierge and thread the conversation using the returned opaque conversation handle, follow the dark theme in style.instructions.md, support Escape to close, and include data-testid attributes.
+    Adicione um widget de chat acessível do Backer Concierge como componente Astro e renderize-o em todo o site a partir de `Layout.astro`. Ele deve enviar uma solicitação POST para `/api/concierge` e manter a conversa usando o identificador opaco retornado, seguir o tema escuro de `style.instructions.md`, permitir fechar com Escape e incluir atributos `data-testid`.
     ```
 
 2. Mantenha a Function local em execução e inicie o site Astro em outro terminal usando o comando fornecido pelo Copilot.
 3. Volte ao Copilot CLI. O servidor MCP do Playwright que você adicionou na [Lição 4][playwright-lesson] já está disponível. Peça ao Copilot para testar o widget:
 
     ```text
-    Use the Playwright MCP server to test the Backer Concierge widget end to end in the running Tailspin Toys site. Verify its core chat flow, conversation continuity, accessibility, error handling, grounding boundaries, and secure use of the local proxy. Report the results and include evidence for any failures.
+    Use o servidor MCP do Playwright para testar de ponta a ponta o widget Backer Concierge no site Tailspin Toys em execução. Verifique o fluxo principal do chat, a continuidade da conversa, a acessibilidade, o tratamento de erros, os limites das fontes usadas para fundamentar as respostas e o uso seguro do proxy local. Informe os resultados e inclua evidências de eventuais falhas.
     ```
 
     ![Captura de tela do widget Backer Concierge no site do Tailspin Toys](../../../../_images/cli-8-backer-concierge-widget.png)
@@ -91,6 +91,6 @@ Continue em [Revisão e próximos passos][review] para encerrar o workshop da CL
 
 [overview]: ../
 [previous-lesson]: ../2-build-and-deploy/
-[review]: ../../9-review/
-[playwright-lesson]: ../../4-mcp/
+[review]: ../../10-review/
+[playwright-lesson]: ../../6-mcp-playwright/
 [cleanup]: ../#limpe-seus-recursos

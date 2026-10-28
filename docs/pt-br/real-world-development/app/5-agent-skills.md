@@ -46,7 +46,7 @@ As skills podem ser chamadas diretamente com um comando de barra (`/`) ou por me
 2. Use o prompt a seguir para chamar a skill:
 
     ```plaintext
-    Run the quality-checks skill for unit tests, lint, and type checks.
+    Execute a skill `quality-checks` para rodar os testes de unidade, o lint e as verificações de tipos.
     ```
 
 3. Observe o relatório ao final.
@@ -75,7 +75,7 @@ Com a alteração feita, vamos vê-la em ação! Usaremos exatamente o mesmo pro
 2. Use o prompt a seguir para chamar a skill:
 
     ```plaintext
-    Run the quality-checks skill for unit tests, lint, and type checks.
+    Execute a skill `quality-checks` para rodar os testes de unidade, o lint e as verificações de tipos.
     ```
 
 3. Observe o relatório ao final.

@@ -1,6 +1,6 @@
 ---
-title: "レッスン 7 - QA エージェントの作成と使用"
-description: "テストのカバレッジ、quality-checks スキル、ブラウザーで直接得た証拠を組み合わせる、要件を起点とした QA プロファイルを作成します。"
+title: "レッスン 7 - 品質保証 (QA) エージェントの作成と使用"
+description: "テストのカバレッジ、quality-checks スキル、ブラウザーで直接得た証拠を組み合わせる、要件を起点とした品質保証プロファイルを作成します。"
 authors:
   - geektrainer
 lastUpdated: 2026-09-17

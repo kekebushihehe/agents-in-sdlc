@@ -27,7 +27,7 @@ O seletor **Harness** lista o Copilot sendo executado em **Local** ou **Cloud**,
 2. Inicie uma nova sessão e atribua a ela um recurso independente com critérios de aceitação claros:
 
    ```plaintext
-   Add a theme picker to the space quiz with three named themes: Deep Space, Launch Pad, and Lunar. Persist the choice in localStorage, keep everything in the single index.html with no dependencies, keep contrast accessible in every theme, and open a pull request when the tests pass.
+   Adicione ao Space Quiz um seletor de temas com três temas chamados Deep Space, Launch Pad e Lunar. Persista a escolha em `localStorage`, mantenha tudo em um único `index.html`, sem dependências, garanta contraste acessível em todos os temas e abra um pull request quando os testes passarem.
    ```
 
 3. Feche o notebook. O trabalho continua no GitHub e é entregue como um pull request.

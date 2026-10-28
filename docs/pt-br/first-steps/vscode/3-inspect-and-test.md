@@ -27,7 +27,7 @@ O VS Code mostra o contexto ativo no canto inferior direito da caixa de entrada 
 Use o navegador integrado e um prompt de teste básico de funcionamento antes de inicializar um repositório ou fazer qualquer commit:
 
 ```plaintext
-Run a browser-level smoke test for the quiz. Check keyboard navigation, score updates, correct and incorrect feedback, and the results screen. Fix any failures, then report what passed.
+Execute um teste básico de funcionamento do quiz no navegador. Verifique a navegação pelo teclado, a atualização dos pontos, o feedback para respostas certas e erradas e a tela de resultados. Corrija eventuais falhas e informe o que passou.
 ```
 
 1. Execute o teste básico de funcionamento e verifique o navegador integrado.

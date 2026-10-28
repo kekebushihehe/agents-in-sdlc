@@ -68,7 +68,7 @@ Confirme que o PR das avaliações por estrelas foi integrado e que a branch `ma
 O planejamento permite revisar a abordagem antes que o Copilot escreva o código. Como você começou pela issue, o Copilot já tem a solicitação do recurso como contexto. Envie:
 
 ```plaintext
-Build this feature.
+Implemente este recurso.
 ```
 
 Responda às perguntas do Copilot e compare o plano com os critérios de aceitação da issue. Verifique se ele abrange a filtragem por categoria e editora, controles acessíveis, alterações no acesso a dados e testes. Discuta qualquer comportamento que não esteja claro, como a forma de combinar várias categorias ou o que acontece quando nenhum jogo corresponde aos filtros.
@@ -100,7 +100,7 @@ O código parece correto, mas será que funciona? Vamos iniciar o aplicativo com
 1. Use o prompt a seguir para pedir ao Copilot que inicie o aplicativo e abra a página no canvas de navegador:
 
     ```plaintext
-    Start the app and open it in the browser canvas.
+    Inicie o aplicativo e abra-o no canvas do navegador.
     ```
 
 2. Em alguns instantes, o aplicativo será iniciado e uma janela do navegador será aberta dentro do aplicativo Copilot.

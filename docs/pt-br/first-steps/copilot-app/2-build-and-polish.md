@@ -20,7 +20,7 @@ Nesta lição, você vai:
 Envie o seguinte prompt na sessão `space-quiz`:
 
 ```plaintext
-Create a space exploration quiz with 10 questions, a progress bar, score counter, and colorful animated feedback (green for correct, red shake for wrong). Show a results screen with emoji reaction at the end. Center in a narrow column. Single index.html, no server/dependencies. Polished, sans-serif, 14–16px body, prefers-color-scheme. Open in the integrated browser.
+Crie um quiz de exploração espacial com 10 perguntas, barra de progresso, contador de pontos e feedback colorido e animado (verde para respostas certas, tremor vermelho para respostas erradas). Mostre uma tela de resultados com uma reação em emoji ao final. Centralize o conteúdo em uma coluna estreita. Use um único `index.html`, sem servidor nem dependências. Capriche no acabamento, use uma fonte sem serifa e texto de 14–16 px, e respeite `prefers-color-scheme`. Abra no navegador integrado.
 ```
 
 Quando o agente terminar, responda a várias perguntas e confirme que:
@@ -42,7 +42,7 @@ Recolha a barra lateral esquerda e o painel do navegador à direita e revise `in
 3. Envie o seguinte prompt:
 
    ```plaintext
-   Make the selected element feel more like a mission-control display. Keep it accessible and preserve the existing light and dark themes.
+   Faça o elemento selecionado parecer mais com um painel de controle de missão. Mantenha a acessibilidade e preserve os temas claro e escuro existentes.
    ```
 
 4. Observe a atualização do navegador integrado e verifique a alteração.

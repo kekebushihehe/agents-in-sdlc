@@ -21,7 +21,7 @@ Nesta lição, você vai:
 3. Descreva o próximo recurso com o seguinte prompt e deixe o Copilot investigar o espaço de trabalho:
 
    ```plaintext
-   Plan how to add a review screen that shows every question with the answer I chose. Investigate the existing quiz, list the changes you would make, call out accessibility and single-file risks, and stop before editing.
+   Planeje como adicionar uma tela de revisão que mostre cada pergunta e a resposta que escolhi. Investigue o quiz existente, liste as alterações que faria, indique os riscos de acessibilidade e da restrição de arquivo único e pare antes de editar.
    ```
 
 4. Leia o plano e solicite alterações, depois volte para **Agent** para implementá-lo.

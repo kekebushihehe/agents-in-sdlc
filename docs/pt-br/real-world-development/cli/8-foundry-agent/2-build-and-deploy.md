@@ -35,7 +35,7 @@ Agora, você pedirá à skill do Microsoft Foundry para gerar a estrutura do age
 1. Insira o seguinte prompt no Copilot CLI:
 
     ```text
-    Use the Microsoft Foundry Skill to scaffold a hosted Backer Concierge in this existing repository using the project and model deployment we selected. Start from the Python 3.13 Basic hosted-agent sample, use Microsoft Agent Framework with the Responses API and code deployment, and keep the agent in agent/backer-concierge. Keep one azure.yaml at the repository root with a service using host: azure.ai.agent.
+    Use a skill Microsoft Foundry para gerar a estrutura inicial de um Backer Concierge hospedado neste repositório, usando o projeto e a implantação de modelo que selecionamos. Comece com o exemplo de agente hospedado Basic do Python 3.13, use o Microsoft Agent Framework com a Responses API e implantação de código, e mantenha o agente em `agent/backer-concierge`. Mantenha um único `azure.yaml` na raiz do repositório, com um serviço que use `host: azure.ai.agent`.
 
     Ground every answer in db/catalog.json. Never invent games, publishers, ratings, funding totals, backer counts, pledge tiers, prices, player counts, play times, or release dates. Ask one short clarifying question when a request is vague and preserve conversation context. Ensure the catalog is copied into the deployable service during preparation so the deployed agent never depends on a file outside its service directory. Add focused tests for catalog loading and grounding behavior.
 
@@ -79,7 +79,7 @@ Agora, você pedirá à skill do Microsoft Foundry para gerar a estrutura do age
 4. Peça ao Copilot para executar os testes específicos e inspecionar a configuração gerada antes de iniciar o serviço:
 
     ```text
-    Run the focused Backer Concierge tests. Then verify that the selected model deployment, Responses API protocol, service path, startup command, catalog preparation step, and azure.ai.agent host configuration are consistent. Fix only problems in this hosted-agent project and rerun the failed checks.
+    Execute os testes específicos do Backer Concierge. Em seguida, verifique se a implantação do modelo selecionado, o protocolo Responses API, o caminho do serviço, o comando de inicialização, a etapa de preparação do catálogo e a configuração de host `azure.ai.agent` são consistentes. Corrija apenas problemas neste projeto de agente hospedado e execute novamente as verificações que falharam.
     ```
 
     Não continue até que os testes específicos sejam aprovados.
@@ -102,7 +102,7 @@ Agora, você verificará a fundamentação das respostas e o comportamento de co
 3. Volte ao Copilot CLI no primeiro terminal e insira:
 
     ```text
-    Test the running Backer Concierge through its Responses API. Run each acceptance prompt below, preserve the response ID for the two-turn conversation test, and compare every response with the expected behavior. Show a concise pass or fail table and the evidence for any failure. Do not change code yet.
+    Teste o Backer Concierge em execução por meio da Responses API. Execute cada prompt de aceitação abaixo, preserve o ID da resposta para o teste de conversa de dois turnos e compare cada resposta com o comportamento esperado. Mostre uma tabela concisa de aprovações ou reprovações e as evidências de cada falha. Ainda não altere o código.
 
     1. "I love puzzle games about tracking down bugs. What should I back?" Expected: only real catalog titles with correct details.
     2. "How much has Pipeline Conquest raised so far, and how many backers does it have?" Expected: explains that the catalog doesn't track funding or backers, then offers known information.

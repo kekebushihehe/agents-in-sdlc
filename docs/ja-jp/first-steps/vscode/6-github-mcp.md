@@ -1,6 +1,6 @@
 ---
 title: "レッスン 6 - Copilot に GitHub を扱うツールを提供する"
-description: "Copilot に Issue やプルリクエストの操作を依頼する前に、VS Code の GitHub MCP サーバーを有効にしてレビューします。"
+description: "Copilot に Issue やプルリクエストの操作を依頼する前に、VS Code の GitHub Model Context Protocol (MCP) サーバーを有効にしてレビューします。"
 authors:
   - jamesmontemagno
 lastUpdated: 2026-09-28

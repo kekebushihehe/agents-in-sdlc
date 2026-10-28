@@ -19,7 +19,7 @@ Nesta lição, você vai:
 Envie o seguinte prompt na sessão do Copilot CLI:
 
 ```plaintext
-Create a space exploration quiz with 10 questions, a progress bar, score counter, and colorful animated feedback (green for correct, red shake for wrong). Show a results screen with an emoji reaction at the end. Single index.html, no server or dependencies. Accessible, keyboard-navigable, and respects prefers-color-scheme.
+Crie um quiz de exploração espacial com 10 perguntas, barra de progresso, contador de pontos e feedback colorido e animado (verde para respostas certas, tremor vermelho para respostas erradas). Mostre uma tela de resultados com uma reação em emoji ao final. Use um único `index.html`, sem servidor nem dependências. Garanta acessibilidade, navegação pelo teclado e respeito a `prefers-color-scheme`.
 ```
 
 1. Leia o plano proposto e aprove as alterações nos arquivos.

@@ -53,7 +53,7 @@ A issue e suas decisões de planejamento já estão no contexto. Interrompa qual
 1. Use o prompt a seguir para pedir ao Copilot que valide a nova funcionalidade:
 
     ```plaintext
-    Start the app and use Playwright MCP to check filtering against the issue and our plan. Tell me what works and what doesn't, without making changes. Stop the server you started when you're done.
+    Inicie o aplicativo e use o Playwright MCP para verificar a filtragem conforme a issue e nosso plano. Informe o que funciona e o que não funciona, sem fazer alterações. Ao terminar, pare o servidor que iniciou.
     ```
 
 > [!NOTE]

@@ -25,7 +25,7 @@ As automações executam o mesmo prompt em horários agendados, cada uma em sua 
 3. Insira o seguinte prompt:
 
    ```plaintext
-   Review the latest GitHub issues created and still open in the last week, and provide a summary table ranked by severity and priority.
+   Revise as issues mais recentes do GitHub, criadas e ainda abertas na última semana, e apresente uma tabela resumida classificada por gravidade e prioridade.
    ```
 
 4. Defina o modo da sessão como **Autopilot**.

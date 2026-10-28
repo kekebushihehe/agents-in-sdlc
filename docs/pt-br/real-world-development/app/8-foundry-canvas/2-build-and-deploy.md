@@ -95,7 +95,7 @@ O Canvas gera o código, a estrutura de pastas e o `azure.yaml` na raiz que cone
 10. Teste uma **armadilha de alucinação**:
 
     ```text
-    How much has Pipeline Conquest raised so far, and how many backers does it have?
+    Quanto a Pipeline Conquest arrecadou até agora e quantos apoiadores ela tem?
     ```
 
     Resultado esperado: explica que o catálogo não acompanha a arrecadação nem os apoiadores e, em seguida, oferece informações que estão presentes.
@@ -119,7 +119,7 @@ O Canvas gera o código, a estrutura de pastas e o `azure.yaml` na raiz que cone
 13. Teste a **precisão da classificação**:
 
     ```text
-    What are your three highest rated games?
+    Quais são seus três jogos mais bem avaliados?
     ```
 
     Resultado esperado: retorna as três entradas mais bem avaliadas do catálogo na ordem correta e com as avaliações corretas.

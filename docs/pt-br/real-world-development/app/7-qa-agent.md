@@ -32,9 +32,8 @@ Antes de abrir o PR do recurso, você pedirá ao Copilot que crie um perfil de Q
 2. Envie o prompt a seguir ao Copilot para criar o novo agente personalizado:
 
     ```plaintext
-    Create a custom agent named QA in .github/agents/qa.agent.md. It should check features against their issues and agreed requirements, follow the repository instructions, run the quality-checks skill, use Playwright MCP to verify behavior, and add tests when coverage is missing.
-
-    Have it report each requirement as pass, fail, or blocked with supporting evidence. It must ask before changing implementation code, and it must not commit changes or open pull requests. Use the current model and available tools. Just create the profile for now so I can review it.
+    Crie um agente personalizado chamado QA em `.github/agents/qa.agent.md`. Ele deve verificar os recursos em relação às issues e aos requisitos acordados, seguir as instruções do repositório, executar a skill `quality-checks`, usar o Playwright MCP para verificar o comportamento e adicionar testes quando não houver cobertura.
+    Peça que informe cada requisito como aprovado, reprovado ou bloqueado, com evidências. Ele deve pedir autorização antes de alterar o código de implementação e não pode fazer commit nem abrir pull requests. Use o modelo atual e as ferramentas disponíveis. Por enquanto, apenas crie o perfil para que eu possa revisá-lo.
     ```
 
 ## Examinar o perfil
@@ -56,7 +55,7 @@ Com o perfil revisado, selecione QA na sessão atual para que ele possa usar a i
 3. Envie o prompt a seguir para pedir que o QA revise o recurso:
 
     ```plaintext
-    Review the filtering feature against the issue and the decisions in our plan. Is it ready for a PR?
+    Revise o recurso de filtragem conforme a issue e as decisões do nosso plano. Ele está pronto para um pull request?
     ```
 
 4. Confirme que o QA usa a issue e as decisões de planejamento corretas. Forneça a URL da issue ou qualquer contexto ausente se ele solicitar.
